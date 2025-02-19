@@ -42,7 +42,7 @@ namespace eCommerceShearedLibrary.DipendencyInjection
             app.UseMiddleware<GlobalExceptions>();
 
             //Register Middleware to block All outside API calls
-            app.UseMiddleware<ListenToOnlyApiGeteway>();
+            //app.UseMiddleware<ListenToOnlyApiGeteway>();
 
             return app;
         }
